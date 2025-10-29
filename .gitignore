@@ -36,6 +36,5 @@ coverage
 __screenshots__/
 
 # Dependencies
-/vendor/
-/node_modules/
-/composer.lock
+/vendor
+!/vendor/symfony/deprecation-contracts
