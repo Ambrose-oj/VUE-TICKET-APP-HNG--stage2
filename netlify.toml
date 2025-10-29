@@ -1,0 +1,8 @@
+[build]
+  base = "vue-project"
+  publish = "dist"
+  command = "composer install --no-dev --optimize-autoloader && npm ci && npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  PHP_VERSION = "8.2"
