@@ -1,6 +1,6 @@
 # Dependencies
-node_modules/
-vendor/
+/vendor/
+/node_modules/
 composer.json
 composer.lock
 
@@ -23,6 +23,8 @@ yarn-debug.log*
 # OS
 .DS_Store
 Thumbs.db
+
+
 
 
 
