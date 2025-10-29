@@ -36,5 +36,4 @@ coverage
 __screenshots__/
 
 # Dependencies
-/vendor
-!/vendor/symfony/deprecation-contracts
+/vendor/
